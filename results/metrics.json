@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "course": "26MCAC103 - Business Statistics Using Python",
+        "project_title": "E-Commerce Sales Analysis and Demand Forecasting",
+        "dataset_source": "Kaggle Store Sales - Time Series Forecasting (Corporaci\u00f3n Favorita, Ecuador)",
+        "url": "https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data",
+        "total_rows": 3000888,
+        "daily_rows": 1688,
+        "start_date": "2013-01-01",
+        "end_date": "2017-08-15",
+        "num_stores": 54,
+        "num_families": 33
+    },
+    "descriptive_statistics": {
+        "count": 1688,
+        "mean": 636045.5877980264,
+        "median": 631692.56303065,
+        "std": 236176.59009229182,
+        "variance": 55779381707.62244,
+        "min": 0.0,
+        "max": 1463083.962459,
+        "range": 1463083.962459,
+        "q1": 440805.257014125,
+        "q3": 785579.927886075,
+        "iqr": 344774.67087195,
+        "cv_percent": 37.13202239322643,
+        "skewness": 0.37619579127565184,
+        "kurtosis": -0.2128671315370112,
+        "outlier_count": 5,
+        "iqr_lower_bound": -76356.74929379998,
+        "iqr_upper_bound": 1302741.934194
+    },
+    "inferential_statistics": {
+        "weekday_count": 1206,
+        "weekday_mean": 571717.2926068282,
+        "weekday_std": 199590.48230221827,
+        "weekend_count": 482,
+        "weekend_mean": 796999.7869693646,
+        "weekend_std": 243926.6598291258,
+        "mean_difference": 225282.49436253647,
+        "std_error_diff": 12509.046262073582,
+        "welch_t_stat": 18.009566008687234,
+        "p_value": 1.4955859109160194e-60,
+        "degrees_of_freedom": 751.3811751410509,
+        "ci_95_lower": 200725.65785839452,
+        "ci_95_upper": 249839.3308666784,
+        "cohen_d": 1.0567647158606563,
+        "anova_f_stat": 10239.345544014333,
+        "anova_p_val": 0.0,
+        "lag1_autocorr": 0.7341867672440314,
+        "lag7_autocorr": 0.8332463245691984,
+        "ljung_box_p_lag7": 0.0
+    },
+    "regression_model": {
+        "train_r2": 0.7496908602857472,
+        "train_adj_r2": 0.7464758805096008,
+        "test_r2": 0.3936821180066926,
+        "test_mae": 82467.60765651896,
+        "test_rmse": 101036.98479307855,
+        "test_mape": 10.269817879928674,
+        "f_statistic": 233.18680442349887,
+        "f_pvalue": 0.0,
+        "durbin_watson": 1.026773369028826,
+        "jarque_bera_stat": 8030.678013155733,
+        "jarque_bera_p": 0.0,
+        "breusch_pagan_p": 8.166388402898974e-32,
+        "key_coeffs": {
+            "time_idx": 267.26243317366436,
+            "onpromotion": 5.051998392445562,
+            "is_holiday": 30438.14379812089,
+            "dcoilwtico": -713.0033876340156
+        }
+    },
+    "forecast_comparison": [
+        {
+            "Model": "Naive (Persistence)",
+            "MAE": 115485.44401154191,
+            "RMSE": 136349.16095920853,
+            "MAPE (%)": 13.81252488816618,
+            "R2": -0.10419191292580199
+        },
+        {
+            "Model": "7-Day Rolling Moving Average",
+            "MAE": 103687.50678372582,
+            "RMSE": 130298.27256420447,
+            "MAPE (%)": 12.278922369926814,
+            "R2": -0.008363085716223129
+        },
+        {
+            "Model": "Seasonal Naive (Lag-7)",
+            "MAE": 58717.358655500015,
+            "RMSE": 90208.03928642032,
+            "MAPE (%)": 6.806989540801754,
+            "R2": 0.516685183462628
+        },
+        {
+            "Model": "Multiple Linear Regression",
+            "MAE": 82467.60765651896,
+            "RMSE": 101036.98479307855,
+            "MAPE (%)": 10.269817879928674,
+            "R2": 0.3936821180066926
+        },
+        {
+            "Model": "Holt-Winters Exp Smoothing",
+            "MAE": 57362.699550623314,
+            "RMSE": 85898.17736009155,
+            "MAPE (%)": 6.576361441463282,
+            "R2": 0.5617645356663892
+        },
+        {
+            "Model": "SARIMA(1,1,1)x(1,1,1,7)",
+            "MAE": 56739.90276944125,
+            "RMSE": 84236.34635897103,
+            "MAPE (%)": 6.61585075596501,
+            "R2": 0.5785571737634234
+        }
+    ],
+    "top_families": {
+        "sum": {
+            "GROCERY I": 343462734.886,
+            "BEVERAGES": 216954486.0,
+            "PRODUCE": 122704684.67646,
+            "CLEANING": 97521289.0,
+            "DAIRY": 64487709.0,
+            "BREAD/BAKERY": 42133945.576369,
+            "POULTRY": 31876004.471721,
+            "MEATS": 31086468.4040749,
+            "PERSONAL CARE": 24592051.0,
+            "DELI": 24110322.468767
+        },
+        "cumulative_pct": {
+            "GROCERY I": 31.990345987398417,
+            "BEVERAGES": 52.19763011375878,
+            "PRODUCE": 63.626425492033114,
+            "CLEANING": 72.70962276315063,
+            "DAIRY": 78.71605057410194,
+            "BREAD/BAKERY": 82.64043409492157,
+            "POULTRY": 85.60938620579519,
+            "MEATS": 88.50480040583281,
+            "PERSONAL CARE": 90.79532027923587,
+            "DELI": 93.04097163905402
+        }
+    }
+}

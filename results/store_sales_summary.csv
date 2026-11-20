@@ -1,0 +1,55 @@
+store_nbr,sales,city,state,type,cluster
+44,62087553.250089,Quito,Pichincha,A,5
+45,54498010.416674,Quito,Pichincha,A,11
+47,50948310.061006,Quito,Pichincha,A,14
+3,50481910.185082,Quito,Pichincha,D,8
+49,43420095.783768,Quito,Pichincha,A,11
+46,41896062.1216342,Quito,Pichincha,A,14
+48,35933130.2739365,Quito,Pichincha,A,14
+51,32911489.537604,Guayaquil,Guayas,A,17
+8,30494286.928015,Quito,Pichincha,D,8
+50,28653020.6246953,Ambato,Tungurahua,A,14
+11,28325558.481396,Cayambe,Pichincha,B,6
+7,26952049.582971,Quito,Pichincha,D,8
+9,26409441.0647935,Quito,Pichincha,B,6
+6,25183679.997054,Quito,Pichincha,D,13
+24,23767732.701713,Guayaquil,Guayas,D,1
+2,21557388.6445642,Quito,Pichincha,D,13
+39,20252192.53354,Cuenca,Azuay,B,6
+37,19970635.6144784,Cuenca,Azuay,D,2
+27,19188021.3815342,Daule,Guayas,D,1
+4,18909700.380001,Quito,Pichincha,D,9
+38,18859999.2605296,Loja,Loja,D,4
+40,18395757.405968,Machala,El Oro,C,3
+28,18383154.8339259,Guayaquil,Guayas,E,10
+17,18030969.250161,Quito,Pichincha,C,12
+31,17746872.701507,Babahoyo,Los Rios,B,10
+34,17090734.15915,Guayaquil,Guayas,B,6
+43,16391692.2119096,Esmeraldas,Esmeraldas,E,10
+5,15592404.5723532,Santo Domingo,Santo Domingo de los Tsachilas,D,4
+36,15322431.096578,Libertad,Guayas,E,10
+41,14991039.1385844,Machala,El Oro,D,4
+33,14178501.293449,Quevedo,Los Rios,C,3
+1,14145012.8696541,Quito,Pichincha,D,13
+18,13259375.6899043,Quito,Pichincha,B,16
+19,13049509.836733,Guaranda,Bolivar,C,15
+20,12920954.5928321,Quito,Pichincha,B,6
+23,11651380.6749087,Ambato,Tungurahua,D,9
+15,11451270.022648,Ibarra,Imbabura,C,15
+25,11420997.8725745,Salinas,Santa Elena,D,1
+14,11387918.748218,Riobamba,Chimborazo,C,7
+53,11216167.2826831,Manta,Manabi,D,13
+54,11057483.1179049,El Carmen,Manabi,C,3
+16,10986412.5547492,Santo Domingo,Santo Domingo de los Tsachilas,C,3
+12,10659217.957236,Latacunga,Cotopaxi,C,15
+13,10523045.81794,Latacunga,Cotopaxi,C,15
+29,9725157.696084,Guayaquil,Guayas,E,10
+10,9613905.735863,Quito,Pichincha,C,15
+21,9255505.91021,Santo Domingo,Santo Domingo de los Tsachilas,B,6
+42,8945767.8851627,Cuenca,Azuay,D,2
+26,7755121.8918648,Guayaquil,Guayas,D,10
+35,7676679.4216696,Playas,Guayas,C,3
+30,7382073.663963,Guayaquil,Guayas,C,3
+32,5951795.9975515,Guayaquil,Guayas,C,3
+22,4090201.7408,Puyo,Pastaza,C,7
+52,2696169.733249,Manta,Manabi,A,11
